@@ -2,9 +2,9 @@
 
 Dionis Minev, Christopher M. Wintersinger, Anastasia Ershova, William M. Shih
 
-## Stochastic model simulation code
-
 License: MIT License
+
+## Stochastic model simulations
 
 ### System requirements
 
@@ -30,3 +30,24 @@ Alternatively all the packages above are pip-installable `pip install matplotlib
 ### Demo and instructions for use
 
 The stochastic model Jupyter notebooks are provided as stand-alone scripts and can be simply re-run to reproduce the simulation results.
+
+## Sequence design
+
+### System requirements
+
+Sequence design code is provided as individual Python scripts for each design version.
+
+The following versions of the dependencies were used:
+
+* python 2.7.16
+* unafold 3.8
+
+This code was tested on MacOS Mojave and Catalina.
+
+### Installation guide
+
+The UNAFold nucleic acid folding binaries are no longer publicly available so running these scripts relies on UNAFold already being installed on the user's computer.
+
+### Demo and instructions for use
+
+The scripts that were used for designs in the manuscript are provided as is, and can be simply re-run using Python 2 to generate sequences for the same architectures with the same design parameters if UNAFold is installed.
